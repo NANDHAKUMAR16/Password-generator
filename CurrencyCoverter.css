@@ -1,1 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+    user-select: none;
+}
+label,button{
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container header{
+    font-size: 18px ;
+    letter-spacing: 1.5px;
+    color: royalblue;
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container .num label{
+    display: block;
+    font-size: 18px;
+    padding: 10px 10px 10px 0;
+}
+.container .num input[type ="number"]{
+    padding: 5px 10px;
+    font-size: 16px;
+}
 
+.container .option{
+    display: block;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .option .options{
+    padding: 5px 0px;
+}
+
+.container .generatePassword button{
+    background-color: royalblue;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0px;
+    margin: 10px;
+}
+.container .finalAnswer .answer{
+    display: flex;
+    border: 1px solid;
+    width: 300px;
+    height: 40px;
+    justify-content: space-between;
+    margin: 10px;
+}
+.container .finalAnswer .answer input{
+    width: 90%;
+    border: 0px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.container .finalAnswer .answer button{
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    border: 0px;
+    background-color: green;
+    color: #fff;
+}
