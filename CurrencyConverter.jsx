@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const CurrencyConverter = () => {
+export const PasswordGenerator = () => {
     const [length,setLength] =useState(0);
     const [lowerCase,setLowerCase] =useState(false);
     const [upperCase,setUpperCase] =useState(false);
@@ -60,3 +60,4 @@ export const CurrencyConverter = () => {
     </>
   )
 }
+export default PasswordGenerator;
